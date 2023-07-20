@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+#IMG1{
+    width: 750px;
+    height: 750px;
+    box-shadow: 5px 0px 0px #ff0000e8;
+}
+#IMG2{
+    width: 750px;
+    height: 750px;
+    box-shadow: 5px 0px 0px #ff0000e8;
+
+}
+
+

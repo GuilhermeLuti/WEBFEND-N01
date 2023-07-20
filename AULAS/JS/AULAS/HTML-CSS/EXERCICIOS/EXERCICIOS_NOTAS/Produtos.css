@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #727272;;
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+.head{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px;
+}
+
+.link1{
+    color: #000000;
+}
+
+.link2{
+    color: #000000;
+}
+
+.container_1{
+    display: flex;
+    align-items: center;
+}
+
+.container_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 670px;
+
+}
+
+.container_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_4{
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    position: relative; 
+    top: 550px;
+}
+
+.container_5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;    
+}
+
+.pesq_1{
+    font-size: 1em;
+    align-items: center;
+    position: relative;
+    top: 900px;
+}
+
+.simbolo{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.fot{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px; 
+    position: relative; 
+    bottom: 600px;
+    left: 800px;
+}
+
+#pesquisa{
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    width: 50%;
+    display: flex;
+    justify-content: stretch;
+    position: absolute;
+    left: 500px;
+    bottom: 500px;
+    background-color: #c4c4c4;
+}
+
+#logo1{
+    position: relative;
+    left: 675px;
+    box-shadow: 0px 5px 5px #000;
+}
+
+#desc1{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-shadow: 0px 5px 6px #000;
+
+}
+
+#desc2{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    position: relative;
+    left: 5px;
+    bottom: 400px;
+}
+
+#desc3{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    position: relative;  
+    left: -63px;
+    bottom: 405px;  
+}
+
+#desc4{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    position: relative;
+    left: 0px;
+    bottom: 400px;
+}
+
+#desc5{
+    font-size: 0.8em;
+    font-family: 'Cinzel', serif;
+    position: relative;    
+    bottom: 400px;
+    left: 2px;
+}
+
+#desc6{
+    font-size: 0.8em;
+    font-family: 'Cinzel', serif;
+    position: relative;
+    bottom: 495px;   
+    left: 4px;   
+}
+
+#desc7{
+    font-size: 0.8em;
+    font-family: 'Cinzel', serif;
+    position: relative;
+    bottom: 470px;   
+    left: 4px;
+}
+
+#vol1{
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    text-shadow: 0px 5px 6px #000;
+    position: relative;
+    bottom: 1200px;    
+}
+
+#novd1{
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    text-shadow: 0px 5px 6px #000;    
+}
+
+#preco1{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative;
+    right: 695px;
+    bottom: 650px;
+}
+
+#preco2{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative;
+    right: 20px;
+    bottom: 515px;    
+}
+
+#preco3{
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative;
+    left: 630px;
+    bottom: 379px;
+}
+
+#preco4{
+    font-size: 1.1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative; 
+    bottom: 845px;   
+    left: 35px;
+}
+
+#preco5{
+    font-size: 1.1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative; 
+    bottom: 725px;  
+    left: 685px;  
+}
+
+#preco6{
+    font-size: 1.1em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    position: relative; 
+    bottom: 605px;
+    left: 1335px;
+}
+
+#simb1,#simb2{
+    position: relative;
+    right: 935px;
+    bottom: 265px;
+}
+
+#simb3,#simb4{
+    position: relative;
+    right: 284px;
+    bottom: 205px;
+}
+
+#simb5,#simb6{
+    position: relative;
+    left: 368px;
+    bottom: 145px;
+}
+
+#simb7,#simb8{
+    position: relative;
+    bottom: 498px;
+    left: 2px;
+}
+
+#simb9,#simb10{
+    position: relative;
+    bottom: 448px;
+    left: 655px;
+}
+
+#simb11,#simb12{
+    position: relative;
+    bottom: 398px;
+    left: 1305px;
+}
+
+#lupa{
+    position: relative;
+    left: 1400px;
+    top: 358px;
+}
+
+#link3{
+    font-size: 0.5em;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    color: #000000;
+    position: relative;
+    left: 1350px;
+    bottom: 500px;
+    
+}
+
+#insta1:hover{
+    color: #e100ffa9;
+    transition: 1s;
+}
+
+#face1:hover{
+    color: #001aff;
+    transition: 1s;
+}
+
+#tik1:hover{
+    color: #b80000e3;
+    transition: 1s;
+}
+
+#insta{
+    position: relative;
+    bottom: 750px;
+    left: 800px;    
+}
+
+#face{
+    position: relative;
+    bottom: 710px;
+    left: 760px;
+}
+
+#tik{
+    position: relative;
+    bottom: 668px;
+    left: 723px;
+}
+
+#me{
+    text-align: center;
+    font-size: 2em;
+}

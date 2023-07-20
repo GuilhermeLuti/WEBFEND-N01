@@ -1,0 +1,23 @@
+:root{
+    --cor-primaria: #ff0000;
+    --cor-titulos: #8d0404;
+    --font-titulo1: 5em
+    --font-titulo2: calc(var(--font-titulo1)2) 
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: var(--cor-primaria);
+    border: #000;
+}
+
+h1{
+    color: var(--cor-titulos);
+    font-size: 5em;
+}
+
+h2{
+    color: var(--cor-titulos);
+    font-size: var();
+}

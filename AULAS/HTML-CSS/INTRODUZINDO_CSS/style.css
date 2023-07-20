@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Unica One', cursive;
+    font-style: italic;
+    text-decoration: underline ;
+    text-align: center;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+#titulo {
+    font-size: 4em;
+}
+
+p{
+    color: #fff;
+    transform: rotateX('75deg');
+}
+
+.texto {
+    color: #fff;
+    font-size: 5em;
+}
+
+#logo{
+    margin: 30px;/* Adiciona margem para todos os lados */
+    margin: 100px 80px 60px 40px;/* Adiciona margem especifica para cada lado iniciando por cima, e lado em sentido horario */
+    margin: 100px 50px;/* O primeiro valor vai adiconar o valor atribuindo na vertical e o segundo valor na horizontal */
+    margin-top: 50px;/* Margem em cima */
+    margin-right: 50px;/* Margem a direita */
+    margin-bottom: 50px;/* Margem para baixo */
+    margin-left: 50px;/* Margem a esquerda */
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 10px #850505;
+}

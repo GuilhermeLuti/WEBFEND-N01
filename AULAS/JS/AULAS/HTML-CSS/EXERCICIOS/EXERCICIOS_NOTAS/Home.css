@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #727272;
+}
+
+.desc1{
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    text-shadow:#555555 0px 5px 5px;
+}
+
+.desc2{
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    text-shadow:#555555 0px 5px 5px;    
+}
+
+.head{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px;
+}
+
+.fot{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px; 
+    position: relative;
+    top: 650px; 
+    left: 850px;
+}
+
+.link1{
+    color: #000;
+}
+
+.link2{
+    color: #000;
+}
+
+#logo{
+    position: absolute;
+    left: 630px;
+}
+
+#insta{
+    background-color: #727272;    
+}
+
+#insta{
+    position: absolute;
+    top: 1150px;
+    left: 860px;
+}
+
+#face{
+    position: absolute;
+    top: 1196px;
+    left: 860px;
+}
+
+#tik{
+    position: absolute;
+    top: 1238px;
+    left: 860px;
+}
+
+#insta1:hover{
+    color: #e100ffa9;
+    transition: 1s;
+}
+
+#face1:hover{
+    color: #001aff;
+    transition: 1s;
+}
+
+#tik1:hover{
+    color: #b80000e3;
+    transition: 1s;
+}
+
+#me{
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 700px;
+}

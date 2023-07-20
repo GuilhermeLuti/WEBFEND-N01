@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EX_121.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="field">
+    <input type="text"  id="valor1" placeholder="0"  >
+
+        <div id="calc">Calculadora</div>
+
+    
+        <select name="" id="contas">
+            <option value="somar">+</option>
+            <option value="subtrair">-</option>
+            <option value="multiplicação">x</option>
+            <option value="dividir">/</option>
+        </select>
+
+        <input type="text"  id="valor2" placeholder="0" >
+        <button id="btnSomar" onclick="calcular()" >Somar</button>
+        <button id="btnreset" onclick="reset()">Reset</button>
+        <h1 id="resultado">Resultado:</h1>
+    </fieldset>
+
+    <script src="EX_121.js"></script>
+</body>
+</html>

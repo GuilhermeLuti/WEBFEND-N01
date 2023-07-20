@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color:  #727272;
+}
+
+.registro{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+}
+
+.head{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px;
+}
+
+.link1{
+    color: #000000;
+}
+
+.link2{
+    color: #000000;
+}
+
+.fot{
+    font-size: 2em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-shadow:#555555 0px 5px 5px; 
+    position: relative; 
+    top: 300px;
+    left: 840px;
+}
+
+#logo{
+    position: relative;
+    left: 650px;
+}
+
+#cont{
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#form{
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    position: relative;
+    top: 150px;    
+}
+
+#field{
+    border: 2px solid #000000;
+    box-shadow: 0px 2px 5px #000;   
+}
+
+#nome{
+    background-color: #ffffff7c;
+    font-family: 'Playfair Display', serif;
+}
+
+#sobrenome{
+    background-color: #ffffff7c;
+    font-family: 'Playfair Display', serif;
+}
+
+#email{
+    background-color: #ffffff7c;
+    font-family: 'Oswald', sans-serif;    
+}
+
+#telefone{
+    background-color: #ffffff7c;
+    font-family: 'Oswald', sans-serif;
+}
+
+#senha{
+    background-color: #ffffff7c;
+    font-family: 'Oswald', sans-serif;
+}
+
+#button{
+    background-color: #ffffff7c;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0px 2px 5px #000;    
+}
+
+#insta1:hover{
+    color: #e100ffa9;
+    transition: 1s;
+}
+
+#face1:hover{
+    color: #001aff;
+    transition: 1s;
+}
+
+#tik1:hover{
+    color: #b80000e3;
+    transition: 1s;
+}
+
+#insta{
+    position: relative; 
+    top: 150px;
+    left: 840px;
+}
+
+#face{
+    position: relative;
+    left: 800px;
+    top: 195px;
+}
+
+#tik{
+    position: relative;
+    top: 235px;
+    left: 763px;
+}
+
+#me{
+    text-align: center;
+}

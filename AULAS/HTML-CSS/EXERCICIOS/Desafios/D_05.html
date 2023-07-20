@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D_05.css">
+    <title>Tabela de gorjeta.</title>
+
+    <header id="splitter">
+        <h1>s p l i<br>t t e r</h1>
+    </header>
+</head>
+<body>
+    <div>
+        <fieldset class = "fild1">
+            <div>
+                <h1 id="bill1">Bill</h1>
+            </div>
+            <div>
+                <h1 id="selectip">Select Tip %</h1>
+            </div>
+            <form>
+                <div>
+                    <label for="bill"></label>
+                    <input type="text" name="bill" id="bill2" placeholder="R$" required>
+                </div>
+                <div>
+                    <button id="off5">5%</button>
+                    <button id="off10">10%</button>
+                    <button id="off15">15%</button>
+                </div>
+                <div>
+                    <button id="off20">20%</button>
+                    <button id="off25">25%</button>
+                </div>
+                <div>
+                    <label id="custom1" for="custom"></label>
+                    <input type="text" name="custom" id="custom" placeholder="Custom %">
+                </div>
+                <div>
+                    <label id="people1" for="people">Number of People</label>
+                    <input type="text" name="people" id="people2" placeholder="0" required>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <div>
+    <fieldset class = "fild2">
+        <div>
+            <h1 id="tipamount1">Tip Amount / person </h1>
+        </div>
+        <div>
+            <h1 id="tipamount2">Tip Amount/ person</h1>
+        </div>
+            <div>
+                <input type="text" name="tip1" id="tip1" placeholder="$0.00"> 
+            </div>
+            <div>
+                <input type="text" name="tip2" id="tip2" placeholder="$0.00"> 
+            </div>   
+            <div>
+               <button id="reset" onclick="reset()">Reset</button> 
+            </div> 
+        </fieldset>
+    </div>     
+</body>
+</html>

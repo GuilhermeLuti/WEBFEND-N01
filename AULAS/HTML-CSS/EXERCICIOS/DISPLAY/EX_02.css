@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.a{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 880px;
+}
+
+.b{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 190px;
+    left: 915px;
+}
+
+.c{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+    left: 920px;
+}
+
+.d{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -110px;
+    left: -250px;
+}
+
+#h1{
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#loja{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+#li{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-decoration: solid;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    right: 999px;
+}
+
+#vid1{
+    position: absolute;
+    top: 400px;
+    right: 700px;
+}
+
+#p{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 800px;
+    right: 900px;
+}
